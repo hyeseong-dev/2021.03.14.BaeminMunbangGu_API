@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "200store"
+version = "0.1.0"
+description = ""
+authors = ["hyeseong-lee <hyeseong43@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+asgiref = "3.3.1"
+bcrypt = "3.2.0"
+certifi = "2020.12.5"
+cffi = "1.14.5"
+cryptography = "3.2.1"
+Django = "3.1.6"
+django-cors-headers = "3.7.0"
+mysqlclient = "2.0.3"
+pycparser = "2.20"
+PyJWT = "2.0.1"
+pytz = "2021.1"
+six = "1.15.0"
+sqlparse = "0.4.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
